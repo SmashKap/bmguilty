@@ -1,0 +1,92 @@
+/*
+Theme Name: Mesmerize Child
+Theme URI:https://extendthemes.com/go/mesmerize-home/
+Author: Ashley Kaplan
+Author URI:http://ashleykaplan.com/
+Template:  Mesmerize
+Description: Mesmerize Child provides customizations to the "Mesmerize" theme.
+Version: 1.0
+License: GNU General Public License version 3
+License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
+Tags: one-column, two-columns, right-sidebar, grid-layout, custom-header, custom-menu, custom-logo, full-width-template, theme-options, translation-ready, featured-images, threaded-comments
+Text Domain: mesmerize
+
+This theme, like WordPress, is licensed under the GPL.
+
+*/
+
+/* General fonts and colors */
+h1 {
+  font-family: 'Special Elite';
+}
+
+a, a:hover {
+  color: #00c0bd;
+}
+
+a.read-more {
+  color: #00c0bd;
+}
+
+a.button.color1,
+input#submit.button.blue.small {
+  background-color: #00c0bd;
+  border-color: #00c0bd;
+}
+
+/* Nav bar styles */
+ul.dropdown-menu li a:hover {
+  color: #00c0bd;
+}
+
+ul#main_menu li a:hover,
+ul#main_menu li:hover,
+ul.dropdown-menu > li:hover {
+  color: #00c0bd;
+}
+
+ul.dropdown-menu.active-line-bottom > .current_page_item > a, ul.dropdown-menu.active-line-bottom > .current-menu-item > a {
+  border-bottom: 3px solid #00c0bd;
+}
+
+.fixto-fixed ul.dropdown-menu.active-line-bottom > .current_page_item > a, .fixto-fixed ul.dropdown-menu.active-line-bottom > .current-menu-item > a {
+  border-bottom: 3px solid #00c0bd;
+}
+
+/*Contact form styles */
+div.section-title-col {
+  padding-bottom: 30px;
+}
+
+span#nf-form-title-1.nf-form-title,
+div.nf-before-form-content,
+span.ninja-forms-req-symbol {
+  display: none;
+}
+
+div.nf-field-element input {
+  padding: 0.5em 0;
+}
+
+div.nf-field-element input[type=button] {
+  width: 100%;
+  background: #00c0bd;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Footer styles */
+.footer-content-lists .footer-column-black {
+  background-color: #222;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+p.copyright {
+  display: none;
+}
+
+div.footer-logo h2 span {
+  font-family: "Special Elite";
+  font-size: 0.75em;
+}
